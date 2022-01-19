@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+main {
+  background: #f5f0f0;
+}
+
+.heading {
+  color: $headingColor;
+  font-family: $fontFamily;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: $textColor;
+  font-family: $fontFamily;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.slick-slide {
+  margin: 0 26px;
+}

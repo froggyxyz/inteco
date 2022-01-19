@@ -1,0 +1,36 @@
+.company {
+  padding: 50px 0 110px;
+  h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 104px;
+  }
+  &__content {
+    position: relative;
+    margin-bottom: 160px;
+  }
+  &__text {
+    padding: 50px 64px 63px 49px;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    background: #fff;
+    max-width: 470px;
+    ul {
+      list-style-type: none;
+      li {
+        margin-bottom: 10px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        span {
+          color: #4764b0;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  &__footing {
+    padding: 0 60px;
+  }
+}
