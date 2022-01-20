@@ -1,9 +1,22 @@
 .company {
   padding: 50px 0 110px;
+  overflow: hidden;
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24%;
+    height: 100%;
+    border-top: 2px solid #d2c8c8;
+    border-right: 2px solid #d2c8c8;
+  }
   h2 {
-    width: 100%;
     text-align: center;
     margin-bottom: 104px;
+    margin-left: 40px;
   }
   &__content {
     position: relative;
@@ -29,6 +42,9 @@
         }
       }
     }
+  }
+  &__slider {
+    margin: 0 -26px;
   }
   &__footing {
     padding: 0 60px;

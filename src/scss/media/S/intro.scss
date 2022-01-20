@@ -1,0 +1,9 @@
+.intro {
+  padding-top: 200px;
+  margin: 0;
+  background: url(../img/intro/img.jpg) no-repeat top right/93.2%;
+  padding-bottom: 40px;
+  &__content {
+    padding: 40px 38px 50px 40px;
+  }
+}

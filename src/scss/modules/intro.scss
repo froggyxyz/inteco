@@ -3,6 +3,8 @@
   margin-bottom: 104px;
   background: url(../img/intro/img.jpg) no-repeat center right/73.6% 100%;
   &__content {
+    position: relative;
+    z-index: 1;
     background: #fff;
     max-width: 550px;
     padding: 55px 38px 55px 59px;

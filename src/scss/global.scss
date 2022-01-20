@@ -7,11 +7,13 @@
 .container {
   width: 100%;
   max-width: 1250px;
+  min-width: 300px;
   margin: 0 auto;
 }
 
 main {
   background: #f5f0f0;
+  overflow: hidden;
 }
 
 .heading {
@@ -34,3 +36,29 @@ main {
 .slick-slide {
   margin: 0 26px;
 }
+
+@media (max-width: 699px) {
+  .container {
+    width: 90%;
+  }
+  .heading {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 1019px) {
+  .container {
+    max-width: 610px;
+  }
+}
+
+@media (max-width: 1339px) {
+  .container {
+    max-width: 930px;
+  }
+} ;

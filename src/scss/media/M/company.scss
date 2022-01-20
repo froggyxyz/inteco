@@ -1,0 +1,14 @@
+.company {
+  &::before {
+    width: 13%;
+  }
+  &__text {
+    top: 460px;
+  }
+  &__content {
+    margin-bottom: 100px;
+  }
+  &__footing {
+    margin-bottom: 700px;
+  }
+}

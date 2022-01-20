@@ -1,0 +1,31 @@
+.projects {
+  padding-bottom: 42px;
+  margin-bottom: 40px;
+  &::after {
+    width: 96%;
+  }
+  &__heading,
+  &__footing {
+    max-width: 250px;
+    margin-left: 30px;
+  }
+  &__content {
+    margin: 30px 0 271px;
+    img {
+      width: 93.9%;
+    }
+    svg {
+      display: none;
+    }
+  }
+  &__text {
+    padding: 28px 33px 26px 20px;
+    top: 138px;
+    max-width: 280px;
+    h4 {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}

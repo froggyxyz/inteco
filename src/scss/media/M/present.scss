@@ -1,0 +1,17 @@
+.present {
+  &::after {
+    width: 87%;
+  }
+  &__heading > p {
+    margin-bottom: 10px;
+  }
+  &__content {
+    margin-top: 270px;
+    &::before {
+      width: 13%;
+    }
+  }
+  &__text {
+    top: -240px;
+  }
+}

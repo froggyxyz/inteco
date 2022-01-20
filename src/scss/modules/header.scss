@@ -1,6 +1,12 @@
 .header {
+  background: #fff;
   padding: 40px 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  z-index: 1;
+  img {
+    width: 100%;
+  }
 }

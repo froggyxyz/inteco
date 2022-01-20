@@ -1,0 +1,25 @@
+@media (max-width: 699px) {
+  @import 'XS/header.scss';
+  @import 'XS/intro.scss';
+  @import 'XS/projects.scss';
+  @import 'XS/present.scss';
+  @import 'XS/principles.scss';
+  @import 'XS/company.scss';
+  @import 'XS/footer.scss';
+}
+
+@media (min-width: 700px) and (max-width: 1019px) {
+  @import 'S/header.scss';
+  @import 'S/intro.scss';
+  @import 'S/projects.scss';
+  @import 'S/present.scss';
+  @import 'S/company.scss';
+  @import 'S/footer.scss';
+}
+
+@media (min-width: 1020px) and (max-width: 1339px) {
+  @import 'M/intro.scss';
+  @import 'M/projects.scss';
+  @import 'M/present.scss';
+  @import 'M/company.scss';
+} ;

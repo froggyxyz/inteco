@@ -1,0 +1,46 @@
+.present {
+  padding-bottom: 20px;
+  overflow: hidden;
+  &::after {
+    width: 97%;
+  }
+  h2 {
+    margin-left: 20px;
+  }
+  &__heading {
+    max-height: 315px;
+    padding: 0 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    & > p {
+      max-width: 50%;
+      margin-right: 20px;
+    }
+    h4 {
+      & > span {
+        font-size: 36px;
+        line-height: 32px;
+      }
+    }
+  }
+  &__container {
+    flex-direction: column;
+    max-width: 50%;
+  }
+  &__content {
+    margin-top: 375px;
+    &::before {
+      width: 3%;
+    }
+    img {
+      width: 100%;
+      margin-left: 20px;
+    }
+  }
+  &__text {
+    max-width: 280px;
+    padding: 29px 35px 30px 20px;
+    top: -338px;
+  }
+}

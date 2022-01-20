@@ -1,0 +1,24 @@
+.company {
+  padding-top: 15px;
+  &::before {
+    width: 3.6%;
+  }
+  h2 {
+    margin-bottom: 25px;
+  }
+  &__content {
+    margin-bottom: 600px;
+    img {
+      width: 92%;
+    }
+  }
+  &__text {
+    padding: 39px 35px 50px 40px;
+    top: 335px;
+  }
+  &__footing {
+    svg {
+      display: none;
+    }
+  }
+}

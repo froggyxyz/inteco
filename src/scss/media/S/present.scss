@@ -1,0 +1,29 @@
+.present {
+  margin-bottom: 35px;
+  overflow: hidden;
+  &::after {
+    width: 96.4%;
+  }
+  h2 {
+    margin-left: 40px;
+  }
+  &__heading {
+    padding: 0px 40px;
+    & > p {
+      margin-bottom: 10px;
+    }
+  }
+  &__content {
+    margin-top: 435px;
+    &::before {
+      width: 3.6%;
+    }
+    img {
+      width: 92%;
+    }
+  }
+  &__text {
+    padding: 50px 43px 65px 40px;
+    top: -410px;
+  }
+}

@@ -1,15 +1,26 @@
 .present {
   padding-bottom: 60px;
   margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 76%;
+    border-top: 2px solid #d2c8c8;
+  }
+  h2 {
+    margin-left: 60px;
+  }
   &__heading {
     padding: 0 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    h2 {
-      width: 100%;
-    }
     & > p {
       max-width: 462px;
     }
@@ -24,17 +35,40 @@
       }
     }
   }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 545px;
+  }
   &__content {
     position: relative;
     display: flex;
     justify-content: flex-end;
     margin-top: 60px;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 24%;
+      height: 200%;
+      border-top: 2px solid #d2c8c8;
+      border-right: 2px solid #d2c8c8;
+    }
+    img {
+      position: relative;
+      z-index: 1;
+    }
   }
   &__text {
     padding: 68px 43px 65px 59px;
     max-width: 470px;
     background: #fff;
     position: absolute;
+    z-index: 2;
     top: 35px;
     left: 0;
     ul {

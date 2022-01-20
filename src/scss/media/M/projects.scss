@@ -1,0 +1,19 @@
+.projects {
+  &::after {
+    width: 87%;
+  }
+  &__heading,
+  &__footing {
+    max-width: 83.6%;
+  }
+  &__content {
+    margin: 35px 0 235px;
+    svg {
+      top: 0;
+    }
+  }
+  &__text {
+    padding: 40px 65px 50px 40px;
+    top: 275px;
+  }
+}

@@ -1,0 +1,18 @@
+.principles {
+  margin-left: 20px;
+  &__content {
+    padding: 36px 20px 15px;
+    max-width: 280px;
+  }
+  &__heading {
+    margin-bottom: 24px;
+    padding-bottom: 10px;
+    h4 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    svg {
+      display: none;
+    }
+  }
+}
