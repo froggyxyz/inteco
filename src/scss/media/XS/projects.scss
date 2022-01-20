@@ -10,6 +10,7 @@
     margin-left: 30px;
   }
   &__content {
+    position: relative;
     margin: 30px 0 271px;
     img {
       width: 93.9%;
@@ -26,6 +27,30 @@
       font-size: 14px;
       line-height: 20px;
       margin-bottom: 10px;
+    }
+  }
+  &__dots {
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    & li button {
+      font-size: 0px;
+      background: #fff;
+      border: none;
+      border-radius: 50%;
+      height: 6px;
+      width: 6px;
+      margin: 5px;
+      outline: none;
+    }
+    & li[class='slick-active'] button {
+      transform: scale(1.7);
     }
   }
 }

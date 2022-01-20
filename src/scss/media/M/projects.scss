@@ -16,4 +16,28 @@
     padding: 40px 65px 50px 40px;
     top: 275px;
   }
+  &__dots {
+    width: 37%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    & li button {
+      font-size: 0px;
+      background: #fff;
+      border: none;
+      border-radius: 50%;
+      height: 6px;
+      width: 6px;
+      margin: 5px;
+      outline: none;
+    }
+    & li[class='slick-active'] button {
+      transform: scale(1.7);
+    }
+  }
 }
