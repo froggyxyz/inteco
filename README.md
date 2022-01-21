@@ -1,1 +1,1 @@
-# inteko
+# inteco
