@@ -6,8 +6,8 @@
   }
   &__heading,
   &__footing {
-    max-width: 250px;
     margin-left: 30px;
+    width: 69%;
   }
   &__content {
     position: relative;
@@ -21,8 +21,9 @@
   }
   &__text {
     padding: 28px 33px 26px 20px;
-    top: 138px;
-    max-width: 280px;
+    top: 80%;
+    max-width: 90%;
+    min-height: 282px;
     h4 {
       font-size: 14px;
       line-height: 20px;
@@ -30,15 +31,16 @@
     }
   }
   &__dots {
-    width: 100%;
+    width: 200px;
     position: absolute;
-    bottom: 40px;
+    bottom: 23%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     justify-content: center;
     list-style: none;
+    margin-left: 65px;
     & li button {
       font-size: 0px;
       background: #fff;
